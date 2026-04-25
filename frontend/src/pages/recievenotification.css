@@ -1,0 +1,64 @@
+.student-notification-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.student-notification-container h2 {
+  color: #064E3B;
+  margin-bottom: 20px;
+}
+
+.empty {
+  color: #888;
+  text-align: center;
+}
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notification-card {
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #ccc;
+  transition: 0.3s;
+}
+
+.notification-card.unread {
+  background: #011805;
+  border-left-color: #2196f3;
+}
+
+.notification-card.read {
+  background: #9d0606;
+  border-left-color: #add50e;
+  opacity: 0.8;
+}
+
+.notification-card h4 {
+  margin-bottom: 5px;
+}
+
+.notification-card p {
+  margin-bottom: 10px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #960606;
+}
+
+.read-status {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.unread-status {
+  color: #ef4444;
+  font-weight: bold;
+}

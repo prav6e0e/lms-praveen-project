@@ -1,0 +1,47 @@
+.admin-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #01fb2b, #764ba2);
+}
+
+.admin-box {
+  background: rgb(11, 0, 0);
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.admin-box h2 {
+  margin-bottom: 20px;
+}
+
+.admin-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.admin-box button {
+  width: 100%;
+  padding: 10px;
+  background: #1cb611;
+  color: rgb(11, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-box button:hover {
+  background: #03824f;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

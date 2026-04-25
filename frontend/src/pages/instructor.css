@@ -1,0 +1,140 @@
+/* 🌙 BACKGROUND */
+body {
+  background: #0f2818;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 📦 MAIN CONTAINER */
+.instructor-container {
+  padding: 30px;
+  color: #e5e7eb;
+}
+
+/* 🧾 HEADER */
+.instructor-container h2 {
+  color: #D9F99D;
+  margin-bottom: 20px;
+}
+
+/* 🧩 SECTION CARD */
+.section {
+  background: #1a4d3f;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border-left: 5px solid #D9F99D;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* 🧾 FORM */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #0f3d2f;
+  color: #fff;
+}
+
+/* 🔘 BUTTONS */
+button {
+  background: #D9F99D;
+  color: #064E3B;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #c5f76e;
+  transform: scale(1.05);
+}
+
+/* 🧑‍🏫 CARD */
+.instructor-card {
+  border-left: 5px solid #10b981;
+  background: #1a4d3f;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.instructor-card.blocked {
+  border-left: 5px solid #ef4444;
+}
+
+.instructor-card:hover {
+  transform: translateY(-5px);
+}
+
+/* 🧾 TEXT */
+.instructor-card h4 {
+  color: #D9F99D;
+  margin-bottom: 5px;
+}
+
+.instructor-card p {
+  color: #c5f76e;
+  margin-bottom: 5px;
+}
+
+/* 📊 STATUS */
+.status-active {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.status-blocked {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* 🔘 ACTION BUTTONS */
+.action-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ❌ DELETE */
+.delete-btn {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+/* 🚫 BLOCK */
+.block-btn {
+  background: #ef4444;
+  color: #fff;
+}
+
+.block-btn:hover {
+  background: #dc2626;
+}
+
+/* ✅ UNBLOCK */
+.unblock-btn {
+  background: #10b981;
+  color: #fff;
+}
+
+.unblock-btn:hover {
+  background: #059669;
+}

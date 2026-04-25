@@ -1,0 +1,41 @@
+.performance-container {
+  padding: 30px;
+  color: #D9F99D;
+}
+
+.performance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.performance-table th {
+  background: #064E3B;
+  padding: 12px;
+  color: #D9F99D;
+}
+
+.performance-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #2d6a5a;
+  color: #c5f76e;
+}
+
+.performance-table tr:nth-child(even) {
+  background: #0f3d2f;
+}
+
+.performance-table tr:nth-child(odd) {
+  background: #1a4d3f;
+}
+
+.good {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.average {
+  color: #f97316;
+  font-weight: bold;
+}

@@ -1,0 +1,87 @@
+.notification-container {
+  padding: 30px;
+  color: #060900;
+}
+
+.notification-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.notification-form input,
+.notification-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #0f3d2f;
+  color: #080c00;
+}
+
+.notification-form button {
+  background: #5b8a05;
+  color: #064E3B;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.filter-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-box input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: #0f3d2f;
+  color: #c5f76e;
+}
+
+.filter-box button {
+  padding: 8px 12px;
+  background: #10b981;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.notification-card {
+  background: #0f3d2f;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 5px solid #ef4444;
+}
+
+.notification-card.read {
+  border-left-color: #10b981;
+}
+
+.notification-card.unread {
+  border-left-color: #ef4444;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: rgb(193, 8, 8);
+}
